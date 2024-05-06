@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>New Jersey Animal Shelter</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" type="image/x-icon" href="/Users/ericaremboske/Desktop/school/web 1/shelter-website/assets/images/Dog_Paw_Print.png" >
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Protest+Riot&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+      
+
+      <nav>
+        <menu id="logo">
+          <a href="index.html"> <img src="assets/images/Dog_Paw_Print.png" id="image100" alt="paw print logo"> New Jersey Animal Shelter</a>
+        </menu>
+          <menu id="main-menu">
+              <li class="sub-menu">
+                  <button>Adoptable</button>
+                  <menu class="dropdown1">
+                      <li><a href="cats.html">Cats/Kittens</a></li>
+                      <li><a href="">Dogs/Puppies</a></li>
+                      <li><a href="">Small Animals</a></li>
+                      <li><a href="">Barnyard</a></li>
+                    </menu>
+                  </li>
+      
+              <li class="sub-menu">
+                  <button>Applications</button>
+                  <menu class="dropdown2">
+                      <li><a href="">Foster</a></li>
+                      <li><a href="adoptionapp.html">Adopt</a></li>
+                  </menu>
+              </li>
+      
+              <li><a href="">Donate</a></li>
+              <li><a href="">About</a></li>
+      
+          </menu>
+        </nav>
+        
+        <br>
+<main>
+  <div class="application">
+  
+    <img src="https://d.newsweek.com/en/full/2284002/reason-cats-returned-shelters-break-hearts.jpg"
+    alt="cat in shelter" id="photo2">
+    <div class="center">Adoption Application</div>
+
+  </div>
+       
+
+
+
+</main>
+
+
+
+<!-- form -->
+
+<main>
+	<form id="survey-form">
+    <br>
+    <header>
+      <h1 id="title">Adoption Application</h1>
+    </header>
+		</div>
+
+
+
+  <form>  
+
+  
+
+   <br>
+
+
+  		<!-- name -->
+
+      <div id="first-last-name">
+        <label class="main-label" id="name-label">First Name:<span class="req"> *</span> </label>
+        <input type="text" id="name" placeholder="John" required>
+  
+        <label class="main-label">Last Name:<span class="req"> *</span> </label>
+        <input type="text" id="lastName" placeholder="Smith" required>
+      </div>
+  
+
+
+
+
+    <!-- Animal Name -->
+
+	<div id="animalname">
+    <label class="main-label" for="animalNameLabel">Name of the animal you wish to adopt: <span class="req"> *</span></label>
+    <input type="text" id="AnimalNameLabel" placeholder="Animal Name" required>
+  </div>
+
+<!-- gender -->
+<div id="gender">
+  <label class="main-label" for="gender">Your Gender:<span class="req"> *</span></label>
+  <input type="radio" id="male" name="gender" value="1" required>
+  <label class="gender" for="male">Male</label>
+
+  <input type="radio" id="female" name="gender" value="2" required>
+  <label class="gender" for="female">Female</label>
+
+  <input type="radio" id="other" name="gender" value="3" required>
+  <label class="gender" for="other">Other</label>
+</div>
+
+<!-- address  -->
+
+<div id="address">
+  <label class="main-label" for="address1">Address: <span class="req"> *</span></label>
+  <input type="text" id="address1" size="30" placeholder="Street Address" required>
+
+
+  <label class="main-label" for="town">City: <span class="req"> *</span></label>
+  <input type="text" id="city" size="15" placeholder="Your City" required>
+
+  <label class="main-label" for="postcode">Zip Code: <span class="req"> *</span></label>
+  <input type="text" id="zipcode" size="10" placeholder="Zip Code" required>
+
+</div>
+
+<!-- email / phone -->
+
+<div id="email-phone">
+  
+  <label class="main-label" id="phone-label" for="phone">Phone: <span class="req"> *</span></label>
+  <input type="tel" id="phone" placeholder="e.g. 675 403 7665" textarea
+  maxlength="10" required>
+
+  <label class="main-label" id="email-label" for="email">Email: <span class="req"> *</span></label>
+  <input type="email" id="email" placeholder="youremail@example.com" required size="35">
+
+</div>
+
+<!-- age -->
+
+<div id="age">
+  <ul><label class="main-label" for="age">Age of applicant:<span class="req"> *</span></label></ul>
+
+  <input type="radio" id="u18" name="age" value="1" required>
+    <label for="u18">Under 18</label>
+
+  <input type="radio" id="18" name="age" value="2" required>
+    <label for="18">18 - 24</label>
+
+  <input type="radio" id="25" name="age" value="3" required>
+    <label for="25">25 - 34</label>
+
+  <input type="radio" id="35" name="age" value="4" required>
+    <label for="35">35 - 44</label>
+
+  <input type="radio" id="45" name="age" value="5" required>
+    <label for="45">45 and older</label>
+
+</div>
+
+<!-- why? -->
+
+<div id="why">
+  <ul><label class="main-label" for="why">Why do you want to adopt? Please check all that apply:<span class="req"> *</span></label></ul>
+  <input type="checkbox" name="reason" id="companion" value="companion">
+    <label for="companion">Pet & Companion</label>
+
+  <input type="checkbox" name="reason" id="gift" value="gift">
+    <label for="gift">Gift</label>
+
+  <input type="checkbox" name="reason" id="senior" value="senior">
+    <label for="senior">For a Senior</label>
+
+  <input type="checkbox" name="reason" id="child" value="child">
+    <label for="child">For a Child</label>
+
+</div>
+
+<!-- allergies -->
+
+<div id="allergies">
+  <ul><label class="main-label" for="allergies">Is anyone in your household allergic to pets?<span class="req" required> *</span></label></ul>
+
+  <input type="radio" id="yes" name="allergy" value="1" required>
+    <label for="yes">Yes</label>
+
+  <input type="radio" id="no" name="allergy" value="2" required>
+    <label for="no">No</label>
+
+  <input type="radio" id="sometimes" name="allergy" value="3" required>
+    <label for="sometimes">Sometimes</label>
+</div>
+<!-- pets in household -->
+
+<div id="pets-household">
+  <ul><label class="main-label" required id="number-label">How many pets are already in your household?<span class="req"> *</span>
+  </label></ul>
+  <input type="number" id="number" min="1" max="10" placeholder="0">
+</div>
+
+<!-- housing -->
+
+<div id="housing">
+  <label class="main-label" required>What type of housing you reside?<span class="req"> *</span></label>
+  <select id="dropdown">
+  <option disabled selected value>Select an option</option>
+  <option value="apt">Apt / Condo</option>
+  <option value="house">House</option>
+  <option value="other">Other</option>
+  </select>
+</div>
+
+<!-- comments -->
+
+<div id="prepare">
+  <label class="main-label">Is there anything else you want us to know?</label>
+</div>
+<div id="textarea">
+  <textarea id="comments"
+    rows="10" cols="70" placeholder=" Write here what you would like us to know."></textarea>
+</div>
+
+<!-- submit button -->
+<div id="button">
+  <button type="button" id="submit" onclick="myFunction()">Submit </button>
+  
+  </div>  
+  <br>
+  
+
+
+  <script src="assets/js/script.js"></script>
+</main>
+
+
+  </form>
+
+
+        <footer>
+    
+          <menu id="socialmedia">
+              Connect with us!
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+                
+          </menu>
+          
+        
+          <menu id="website">
+                  <li><a href="">Adoptable</a></li>
+                  <li><a href="adoptionapp.html">Applications</a></li>
+                  <li><a href="">Donate</a></li>
+                  <li><a href="">About</a></li>
+              </li>
+      
+      
+          </menu>
+          
+      </footer>
