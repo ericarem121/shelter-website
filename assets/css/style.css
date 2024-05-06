@@ -1,0 +1,575 @@
+
+
+
+
+
+
+
+
+#image100:hover {
+  box-shadow: none;
+  border:none ;
+}
+
+
+
+
+#image100 {
+ width: 50px;
+ height:50px ;
+  background: none;
+  box-shadow: none;
+  text-decoration:none;
+text-shadow: none;
+position: relative;
+top: 10px;
+}
+
+
+
+
+
+nav {
+  background-color: #357DAA; 
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 1000;
+padding: -1%;
+color: white;
+
+}
+
+
+#main-menu {
+  display: flex;
+  gap: 40px;
+  margin-right: 3%;
+}
+
+
+
+/* logo - New Jersey Animal Shelter */
+#logo {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: 'Madimi One';
+  line-height: 240%;
+  font-weight: lighter;
+text-align: center;
+text-decoration: none;
+}
+
+#logo a {
+  text-decoration: none;
+  color:#ffffff
+}
+                                                        
+
+
+/* text of sections */
+#main-menu button, #main-menu a {
+  background-color:transparent;
+  font-family: sans-serif;
+  font-size: 21px;
+  color: #060606;
+  border-width: 0;
+  border-color: black;
+  font-weight: bold;
+  text-decoration:none;
+  text-align: center;
+  line-height: 400%;
+
+}
+
+/* background of dropdown */
+#main-menu .dropdown1 {
+  background-color: #357DAA;
+  position: absolute;
+  display: none; 
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  left: 52.5%;
+  
+}
+
+/* background of dropdown */
+#main-menu .dropdown2 {
+  background-color: #357DAA;
+  position: absolute;
+  display: none; 
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+align-items: center;
+right: 23.5%;
+}
+
+
+/* text inside dropdown */
+#main-menu .dropdown2 a {
+  color: #020708;
+text-align: center;
+line-height: -100%;
+}
+
+
+/* text inside dropdown */
+#main-menu .dropdown1 a {
+  color: #020708;
+text-align: center;
+
+}
+
+
+/* hovering */
+#main-menu .sub-menu:hover .dropdown2 {
+  display:block;
+text-align: center;
+ padding: 1%;
+ z-index: 1000;
+;}
+
+
+/* hovering */
+#main-menu .sub-menu:hover .dropdown1 {
+  display:block;
+text-align: center;
+ padding: 1%;
+ z-index: 1000;
+}
+
+body {
+background-color: rgb(225, 240, 245);
+
+}
+
+main {
+  background-color: rgb(225, 240, 245);
+text-align: center;
+
+}
+
+section {
+  display: grid;
+  gap: px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 400px;
+ 
+}
+
+
+
+/* dropdown style */
+li {
+  color: #fff;
+  background: #357DAA;
+  display: block;
+  float: center;
+  padding: 1rem;
+  position: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  
+
+}
+  
+
+/* hover style */
+li:hover,
+li:focus-within {
+  background: rgb(175, 231, 225);
+  cursor: pointer;
+  align-content: center;
+  border: none;
+ 
+}
+
+
+
+
+h1 {
+font-size: 40px;
+
+}
+
+h2 {
+font-size: 27px;
+
+}
+
+p {
+font-size:16px;
+text-align: left;
+margin-left: 100px;
+}
+
+
+footer {
+position: center;
+width: 100%;
+  font-size: 16px;
+  background-color: #357DAA; 
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  size-adjust: 16px;
+
+
+}
+
+
+
+.socialmedia {
+font-size: 16px;
+}
+
+
+
+
+.website {
+text-align: center;
+
+}
+
+main {
+padding-top: 0px;
+
+}
+
+
+* {
+text-align: center;
+
+}
+
+
+
+
+footer {
+padding-top: 0cap;
+  color: #fff;
+}
+
+img {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+
+img:hover {
+  border: 0.2px;
+  border-style: solid;
+  border-color: #000000;
+
+}
+
+#pic {
+  border: none
+}
+
+/* Container holding the homepage image and the text */
+.mission {
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+  z-index: 0;
+  background-color: #000000;
+ align-items: center;
+ width: 100%;
+ height: 600px;
+
+}
+
+
+
+
+/* Text inside photo */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+ font-size: 30px;
+}
+
+#photo1 {
+opacity: 45%;
+width: 100%;
+height: 600px;
+  z-index: 0;
+}
+
+
+
+
+
+/* Social media icons */
+
+  .fa {
+    padding: 25px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    margin: 4px;
+  
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  color: #ffffff;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: #ffffff;
+}
+
+/* Instagram */
+.fa-instagram {
+  color: #ffffff;
+}
+
+
+/* text of website sections in footer */
+
+#website a {
+
+  background-color:transparent;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #060606;
+  border-width: 0;
+  border-color: black;
+  font-weight: bold;
+  text-decoration:none;
+  padding: center;
+}
+
+#website {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 3%;
+}
+
+
+
+
+form {
+  line-height: 130%;
+  
+}
+
+
+/* Container holding the application image and the text */
+.application {
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+  z-index: 0;
+  background-color: #000000;
+ align-items: center;
+ width: 100%;
+ height: 600px;
+
+}
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  font-size: 40px;
+
+}
+
+
+
+#photo2 {
+opacity: 45%;
+width: 100%;
+height: 600px;
+  z-index: 0;
+}
+
+
+
+
+
+
+
+
+/* form main styling */
+
+#survey-form {
+	display: center;
+	flex-direction: column;
+	justify-content: stretch;
+	opacity: 0.9;
+	color: #120901;
+	font-size: 1.2em;
+	margin: 30px 50px;
+	border: 2px solid #120901;
+	border-radius: 4px;
+  background-color: (121, 178, 213); 
+line-height: 30px;
+}
+
+#description {
+	font-size: 1.1em;
+	text-align: center;
+}
+
+
+
+.main-label {
+	display: flex;
+	justify-content: stretch;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+form > div {
+
+	padding: 5px;
+	margin: 1px 5% 15px 5%;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+
+
+input {
+	margin: 5px;
+}
+
+#email-phone > input, #dogName > input, #first-last-name > input, #address > input {
+	width: 90%;
+}
+
+#housing {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+
+#housing > select {
+	margin: 15px;
+	width: 90%;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+}
+
+#button {
+	display: flex;
+	justify-content: center;
+}
+
+#submit {
+	color: #120901;
+  background-color: #79b2d5;
+	border: 2.5px solid #120901;
+	border-radius: 15px;
+	cursor: pointer;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 16px;
+}
+
+
+.req {
+  color: red;
+}
+
+
+
+#submit:hover {
+	background: rgb(225, 240, 245);
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+
+
+.fab {
+	opacity: 0.9;
+	font-size: 15px;
+	color: #120901;
+}
+
+
+.list-inline {
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.list-inline-item {
+	padding: 0 10px;
+}
+
+@media (min-width: 760px) and (min-device-width: 760px) {
+	header {
+		flex-direction: row;
+		align-items: flex-end;
+	}
+
+
+	#email-phone > input, #dogName > input, #first-last-name > input, #address > input {
+		width: auto;
+    font-weight: lighter;
+	}
+
+	.main-label {
+		display: inline-block;
+	}
+
+ 
+	.fab {
+		font-size: 25px;
+	}
+  
+  #housing > select {
+	width: 300px;
+}
+}
+
+header {
+	display: flex;
+  align-content: center;
+position: center;
+}
+
+#title {
+	color: #000000;
+	font-size: 40px;
+	padding: 1px 55px;
+  font-family: sans-serif;
+	
+margin-left: 470px;
+}
+
+
